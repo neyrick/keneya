@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="keneya-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="keneya-server.jar" deploy-path="/" handle="module:/resource/keneya-server/keneya-server">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="keneya-api.jar" deploy-path="/lib" handle="module:/resource/keneya-api/keneya-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="keneya-web.war" deploy-path="/" handle="module:/resource/keneya-web/keneya-web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="keneya-model.jar" deploy-path="/lib" handle="module:/resource/keneya-model/keneya-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
