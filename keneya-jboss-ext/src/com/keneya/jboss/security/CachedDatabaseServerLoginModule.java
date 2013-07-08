@@ -11,7 +11,7 @@ import javax.security.auth.login.LoginException;
 
 import org.jboss.security.auth.spi.DatabaseServerLoginModule;
 
-public class CachedDatabaseSeverLoginModule extends DatabaseServerLoginModule {
+public class CachedDatabaseServerLoginModule extends DatabaseServerLoginModule {
 
 	private static final Long DEFAULT_CACHE_VALIDITY = 300000L;
 	private static final String CACHE_VALIDITY_OPTION = "cacheValidity";

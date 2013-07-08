@@ -3,6 +3,11 @@
 	<name>keneya-ear</name>
 	<comment></comment>
 	<projects>
+		<project>keneya-api</project>
+		<project>keneya-jboss-ext</project>
+		<project>keneya-model</project>
+		<project>keneya-server</project>
+		<project>keneya-web</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

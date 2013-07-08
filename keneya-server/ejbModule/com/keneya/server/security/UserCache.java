@@ -19,7 +19,6 @@ public class UserCache {
 	@Inject 
 	private Instance<UserManagerService> userManager;
 	
-	@SuppressWarnings("unused")
 	@PostConstruct
 	private void init() {
 		synchronize();

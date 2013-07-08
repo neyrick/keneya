@@ -2,12 +2,12 @@
 <datasources xmlns="http://www.jboss.org/ironjacamar/schema">
  <datasource jndi-name="java:jboss/datasources/KeneyaDS" enabled="true" 
      use-java-context="true" pool-name="KeneyaDS">
-  <connection-url>jdbc:postgresql://jafar/kaneya</connection-url>
+  <connection-url>jdbc:postgresql://jafar/keneya</connection-url>
   <driver>postgresql-9.1-902.jdbc4.jar</driver>
   <pool></pool>
   <security>
-   <user-name>dev</user-name>
-   <password>nielsBlack</password>
+   <user-name>devel</user-name>
+   <password>devel</password>
   </security>
  </datasource>
 </datasources>
